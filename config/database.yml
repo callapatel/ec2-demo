@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: waitlist_production
-  username: waitlist
+  username: ubuntu
   password: <%= ENV['WAITLIST_DATABASE_PASSWORD'] %>
